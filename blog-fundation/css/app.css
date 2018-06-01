@@ -1,0 +1,70 @@
+/*.column{
+	border:1px solid black;
+}*/
+body{
+	background: url(../img/fondo1.jpg) fixed !important;
+}
+.fondo-blog{
+	background: rgba(7,34,65,0.5);
+}
+.size-21 { font-size: 13px; }
+/*----------------------
+		CEBECERA
+------------------------*/
+.color-titulo{
+	color: #fff;
+}
+#caja-titulo{
+	border-right: 1px dotted #fff;
+	border-bottom: 1px dotted #fff;
+}
+#borde-inferior{
+	border-bottom: 1px dotted #fff;
+}
+#cabecera-blog{
+	margin-bottom: 10px;
+}
+/*----------------------
+		NAVEGACION
+------------------------*/
+.navegacion ul li a{
+	background: #CC444B; 
+	border: 1px solid #fff;
+	color: #fff;
+}
+.navegacion ul li a:hover{
+	background: rgba(7,34,65,0.9);
+	border: 1px solid #fff;
+	color: #fff;
+}
+/*Favaritos*/
+.titulo-text{
+	color: rgb(7,34,65);
+}
+/*imagenes*/
+.img-cont img:hover{
+	transform:scale(1.16);
+	border: 2px solid #CC444B;
+}
+/*-------------------------
+		POSTS DEL BLOG
+---------------------------*/
+#caja-post{
+	border-left:1px dotted #fff;
+}
+.date-post{
+	color: #2F4858;
+}
+/*comentarios*/
+.img-perfil{
+	border-radius: 100%;
+	
+	/*width: 40px;
+	height: 40px;*/
+}
+.borde-coment{
+	border: 1px dotted black;
+	border-radius: 10px;
+	padding: 5px;
+	background: rgba(255,255,255,0.5);
+}
